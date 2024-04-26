@@ -1,0 +1,265 @@
+.promo {
+  height: 800px;
+  background: url(../img/main_bg.jpeg) center center/cover no-repeat;
+}
+.promo-h1 {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+.promo-logo {
+  padding: 40px 0;
+}
+.promo-logo img {
+  display: block;
+  margin: 0 auto;
+}
+.promo-logo_text {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.promo__title {
+  color: rgb(249, 191, 59);
+  font-size: 37px;
+  font-weight: 900;
+  text-align: center;
+}
+.promo__descr {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 300;
+  text-align: center;
+}
+.promo-down__text {
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 250;
+  text-align: center;
+}
+.promo-down__img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.free {
+  color: rgb(249, 191, 59);
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.link-down {
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(41, 156, 189);
+  width: 313px;
+  height: 72px;
+  border-radius: 5px;
+  transition: 0.5s all;
+  border: none;
+  transition: box-shadow 200ms linear;
+}
+.button:hover {
+  box-shadow: 3px 3px 20px rgb(41, 156, 189);
+  border: none;
+  background-color: rgb(41, 156, 189);
+}
+.button:active {
+  background-color: rgb(41, 156, 189);
+  opacity: 0.8;
+}
+
+.title {
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.webinar {
+  height: 607px;
+  padding: 88px 0 0 0;
+  background: rgb(239, 239, 239);
+  width: 100%;
+}
+.webinar__subtitle {
+  text-align: center;
+}
+.webinar-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.webinar-items__descr {
+  margin-top: 26px;
+  color: rgb(74, 74, 74);
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+.webinar-item {
+  width: 342px;
+  margin: 0 25px;
+}
+
+.line {
+  display: block;
+  width: 220px;
+  height: 7px;
+  background-color: rgb(249, 191, 59);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.line__subtitle {
+  color: rgb(74, 74, 74);
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.optimization {
+  height: 546px;
+  padding: 42px 0 0 0;
+}
+.optimization-items {
+  width: 750px;
+  margin-left: 35%;
+  margin-top: 61px;
+}
+.optimization__img {
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  transform: translateY(50%);
+  z-index: -1;
+}
+
+.optimization-items__descr {
+  text-align: left;
+}
+.optimization-items__title {
+  font-weight: 900;
+  color: rgb(41, 156, 189);
+  font-size: 27px;
+  text-align: left;
+}
+.optimization-items__descr {
+  margin-top: 25px;
+  color: rgb(74, 74, 74);
+  font-size: 17px;
+  font-weight: 300;
+}
+.optimization-items__bold {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.circle {
+  width: 118px;
+  height: 118px;
+  background-image: radial-gradient(rgb(180, 226, 255) 40%, rgb(170, 236, 255) 60%);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.bonus {
+  background: rgb(239, 239, 239);
+  max-height: 630px;
+  padding: 60px 0 88px 0;
+}
+.bonus__img {
+  display: block;
+  margin: 0 auto;
+}
+.bonus__descr {
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.time {
+  height: 538px;
+  padding: 89px 0 0 0;
+}
+.time__title {
+  margin-top: 36px;
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.time__subtitle {
+  margin-top: 30px;
+  color: rgb(41, 156, 189);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.time__descr {
+  margin-top: 24px;
+  color: rgb(74, 74, 74);
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+.time__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 169px;
+  background: rgb(26, 26, 26);
+  padding: 57px 0 0 0;
+}
+.footer__number {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  color: rgb(136, 136, 136);
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.footer-items {
+  position: relative;
+  left: 30%;
+}
+.footer-items__support {
+  color: rgb(136, 136, 136);
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+.footer-items__confidentiality {
+  color: rgb(136, 136, 136);
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 890px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
